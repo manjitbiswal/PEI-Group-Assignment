@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Spark / Delta generated files
+spark-warehouse/
+metastore_db/
+derby.log/
+checkpoints/
+checkpoints_*/
+_schema/
+
+# Databricks generated files
+.databricks/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data files
+data/
